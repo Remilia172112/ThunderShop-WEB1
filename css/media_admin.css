@@ -1,0 +1,41 @@
+@media screen and (max-width: 709px) {
+    .left_list {
+        font-family: 'Roboto', sans-serif;
+        background-color: #0083d6;
+        font-size: 0.9rem;
+
+        width: 200px;
+    }
+
+    .left_list ul li {
+        margin-top: 50px;
+        list-style: none;
+        margin-left: 10px;
+    }
+
+    .left_list ul li a {
+        color: white;
+        text-decoration: none;
+    }
+    .header_cart_table,
+    .table_cart {
+        margin-left: 0px;
+    }
+    .header_cart_table .date_1 {
+        width: 100px;
+        height: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .header_cart_table button {
+        display: none;
+    }
+    .header_seach {
+        margin-left: 10px;
+        width: 100%;
+    }
+    .header_select select {
+        width: 60px;
+    }
+}

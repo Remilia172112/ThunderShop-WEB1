@@ -1,0 +1,231 @@
+#in4_account {
+    min-height: 600px;
+    min-width: 1245px;
+    /* border: 2px solid #ffb200; */
+    display: flex;
+    /* border-radius: 8px; */
+    justify-content: space-around;
+    margin: 80px;
+}
+.option_canhan {
+    padding-bottom: 50px;
+}
+.option_canhan_main {
+    width: 260px;
+    height: 298px;
+    border: 3px solid #ffb200;
+    border-radius: 10px;
+    background-color: #f5f5f7;
+}
+.option_canhan_main_head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 71px;
+    max-height: auto;
+    border-bottom: 1px solid #ffb200;
+    position: relative;
+    text-align: center;
+}
+.option_canhan_main_head i {
+    position: absolute;
+    left: 10px;
+    top: 19px;
+    font-size: 35px;
+}
+.option_canhan_main_head h2 {
+    word-wrap: break-word; /* chữ dài thì xuống dòng */
+    overflow: hidden;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    padding: 0px 10px 0 48px;
+}
+
+.option_canhan_main_body {
+    height: 229px;
+}
+.option_canhan_main_body p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 125.023%;
+    font-style: normal;
+    text-align: center;
+    margin: 0;
+    padding-top: 30px;
+}
+#body_1 {
+    border-radius: 8px;
+    cursor: pointer;
+    height: 33%;
+    position: relative;
+}
+#body_1 .user {
+    position: absolute;
+    left: 18px;
+    top: 28px;
+    font-size: 25px;
+}
+#body_1:hover {
+    background-color: var(--line-color);
+}
+#body_2 {
+    border-radius: 8px;
+    cursor: pointer;
+    height: 33%;
+    position: relative;
+}
+#body_2 .bag {
+    position: absolute;
+    left: 15px;
+    top: 27px;
+    font-size: 25px;
+}
+#body_2:hover {
+    background-color: var(--line-color);
+}
+#body_3 {
+    border-radius: 8px;
+    cursor: pointer;
+    height: 33%;
+    position: relative;
+}
+#body_3 .exit {
+    position: absolute;
+    left: 18px;
+    top: 28px;
+    font-size: 25px;
+}
+#body_3:hover {
+    background-color: var(--line-color);
+}
+#in4_caNhan {
+    display: flex;
+}
+.in4_caNhan_main_head {
+    padding: 2px 0;
+    height: 40px;
+    border-bottom: #ffb200 1px solid;
+    padding-bottom: 8px;
+}
+.in4_caNhan_main_head h1 {
+    margin: 0;
+    font-weight: 500;
+    line-height: 125.023%;
+    text-align: center;
+}
+.in4_caNhan_main_body {
+    height: 410px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#row1,
+#row2,
+#row3,
+#row4,
+#row6,
+#row7,
+#row8 {
+    display: flex;
+    justify-content: right;
+    align-items: baseline;
+}
+#row5 {
+    display: flex;
+    justify-content: space-around;
+}
+#row1 input,
+#row2 input,
+#row3 input,
+#row4 input,
+#row6 input,
+#row7 input,
+#row8 input {
+    margin-left: 10px;
+}
+.in4_caNhan_main_body input {
+    border: none;
+    width: 261px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    background-color: #d9d9d9;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+input[type='submit'] {
+    width: 128px;
+    height: 28px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    background: #ffb200;
+    color: white;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.7);
+}
+input[type='submit']:hover {
+    border: 1px solid #ffb200;
+    color: #ffb200;
+    background-color: white;
+}
+.change_in4_main_body_click {
+    text-align: center;
+}
+.in4_caNhan_main_body_click {
+    text-align: center;
+}
+/*----------------------------------------------------------------*/
+.in4_caNhan_main {
+    width: 650px;
+    height: 450px;
+    border: 3px solid #ffb200;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #f5f5f7;
+    position: relative;
+}
+#div_change_notify {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    bottom: 3px;
+    right: 0;
+    position: absolute;
+}
+#change_notify {
+    border-radius: 8px;
+    border: none;
+    padding: 5px;
+    background-color: transparent;
+}
+/* CSS đơn hàng */
+#in4_donhang {
+    display: none;
+}
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #969696;
+    line-height: 1.5;
+    font-size: 1em;
+}
+#noOrder {
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 1279px) {
+    #in4_account {
+        width: 1000px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #in4_account {
+        min-width: 700px;
+        flex-direction: column;
+        margin-left: 150px;
+    }
+}
