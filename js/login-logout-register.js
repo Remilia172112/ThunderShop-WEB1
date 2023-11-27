@@ -118,7 +118,7 @@ function createUser() {
         localStorage.setItem('user', JSON.stringify(Useraccounts));
     }
 }
-// Hiện thị phần thông tin tài khoản, đăng xuất,... của người dùng
+// Hiện thị phần thông tin tài khoản, đăng xuất,.. của người dùng
 function showContent() {
     document.getElementById('div_logout').style.display = 'flex';
 }
@@ -170,7 +170,7 @@ function login_activated(check_login) {
     var div_login = document.getElementById('div_login');
     if (check_login === true) {
         document.getElementById('change_logout').textContent = 'Trang chủ Admin';
-        document.getElementById('change_logout').href = '../html/admin.html';
+        document.getElementById('change_logout').href = './html/admin.html';
     } else {
         document.getElementById('change_logout').textContent = '';
     }
@@ -326,7 +326,7 @@ function login() {
         if (check_admin) {
             var accounts = JSON.parse(localStorage.getItem('admin'));
             document.getElementById('change_logout').textContent = 'Trang chủ Admin';
-            document.getElementById('change_logout').href = '../html/admin.html';
+            document.getElementById('change_logout').href = './html/admin.html';
         } else {
             var accounts = JSON.parse(localStorage.getItem('user'));
             document.getElementById('change_logout').textContent = '';
@@ -350,5 +350,5 @@ function logout() {
     localStorage.setItem('index_login', index_login);
     var check_admin = false;
     localStorage.setItem('check_admin', check_admin);
-    window.location.href = '../html/homepage.html';
+    window.location.href = './html/homepage.html';
 }
