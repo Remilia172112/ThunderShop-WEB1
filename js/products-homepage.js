@@ -1061,7 +1061,7 @@ function filterByType(obj) {
 // Save phân loại sản phẩm
 function Save_products_type(type) {
     localStorage.setItem('type_products', type);
-    window.location.href = './html/homepage.html';
+    window.location.href = './html/index.html';
 }
 // Kiểm tra phân loại sản phẩm
 function Check_products_type() {
@@ -1211,7 +1211,7 @@ function shopping() {
 // Save trạng thái giỏ hàng
 function SaveShoppingcart() {
     localStorage.setItem('Shoppingcart', 'true');
-    window.location.href = './html/homepage.html';
+    window.location.href = './html/index.html';
 }
 // Kiểm tra xem có chọn vào giỏ hàng chưa
 function CheckShoppingcart() {
@@ -1264,7 +1264,7 @@ function showShoppingcart() {
                     </div>
                     <div class="cart_option">
                         <!-- <button type="button" name="capnhat-cart" class="button1 button-cart">Cập nhật giỏ hàng</button> -->
-                        <a href="../html/homepage.html">
+                        <a href="../html/index.html">
                             <button type="button" name="tieptuc-cart" class="button2 button-cart">Tiếp tục mua hàng</button>
                         </a>
                     </div>
@@ -1285,7 +1285,7 @@ function showShoppingcart() {
 // Save trạng thái chính sách bảo hành
 function SaveSecurity() {
     localStorage.setItem('Security', 'true');
-    window.location.href = './html/homepage.html';
+    window.location.href = './html/index.html';
 }
 // Kiểm tra có chọn chính sách bảo hành chưa
 function CheckSecurity() {
@@ -1434,7 +1434,7 @@ document.getElementById('search_icon').addEventListener('click', function () {
 // Save trạng thái tìm kiếm
 function SaveSearch() {
     localStorage.setItem('Search', 'true');
-    window.location.href = './html/homepage.html';
+    window.location.href = './html/index.html';
 }
 // Kiểm tra có tìm kiếm chưa
 function CheckSearch() {

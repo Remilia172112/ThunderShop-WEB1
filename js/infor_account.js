@@ -185,7 +185,7 @@ function getProductHTML(product) {
 // Save trạng thái thông tin tài khoản
 function SaveInforAccount() {
     localStorage.setItem('InforAccount', 'true');
-    window.location.href = './html/homepage.html';
+    window.location.href = './html/index.html';
 }
 // Kiểm tra có chọn thông tin tài khoản chưa
 function CheckInforAccount() {

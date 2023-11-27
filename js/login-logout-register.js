@@ -350,5 +350,5 @@ function logout() {
     localStorage.setItem('index_login', index_login);
     var check_admin = false;
     localStorage.setItem('check_admin', check_admin);
-    window.location.href = './html/homepage.html';
+    window.location.href = './html/index.html';
 }
